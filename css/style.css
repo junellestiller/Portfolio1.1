@@ -25,11 +25,14 @@ a {
 #navbar ul li a {
     display: block;
     padding: 20px;
-    float: left;
+    float: right;
 }
 #navbar ul li a:hover {
     background: black;
     color: orange;
+}
+#navbar ul li {
+    padding-right: 100px;
 }
 #hero {
     background: url("/image/image-black.jpg") no-repeat center center/ cover;
@@ -54,12 +57,11 @@ img {
     float: right;
     height: 800px;
     padding right: 10px;
-   border-radius: 100px;
+    border-radius: 100px;
 }
 footer {
     background: black;
     text-align: center;
-    /* overflow: auto; */
     display: block;
 }
 #about {
