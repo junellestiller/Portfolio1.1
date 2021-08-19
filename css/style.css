@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#navbar {
+    overflow: auto;
+    background: black;
+    color: #fff;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar ul {
+    list-style: none;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    float: left;
+}
+#navbar ul li a:hover {
+    background: black;
+    color: orange;
+}
+#hero {
+    background: url("/image/image-black.jpg") no-repeat center center/ cover;
+    height: 950px;
+}
+#hero {
+    padding-top: 200px;
+    padding-left: 50px;
+    color: #fff;
+}
+#hero .hero-content h1 {
+    font-size: 30px;
+    }
+#hero .hero-content p {
+    font-size: 60px;
+    padding-top: 50px;
+}
+#hero .hero-content h2 {
+    padding-top: 50px;
+}
+img {
+    float: right;
+    height: 800px;
+    padding right: 10px;
+   border-radius: 100px;
+}
+footer {
+    background: black;
+    text-align: center;
+    /* overflow: auto; */
+    display: block;
+}
+#about {
+    color: #fff;
+}
+#about .content-1 i {
+    color: rgb(50, 50, 218);
+    font-size: 40px;
+}
+#about .content-2 i {
+    color: pink;
+    font-size: 40px;
+}
+#about .content-3 i {
+    color: skyblue;
+    font-size: 40px;
+}
