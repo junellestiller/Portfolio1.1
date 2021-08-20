@@ -35,7 +35,7 @@ a {
     padding-right: 100px;
 }
 #hero {
-    background: url("/image/image-black.jpg") no-repeat center center/ cover;
+    background: url("image image-black.jpg") no-repeat center center/ cover;
     height: 950px;
 }
 #hero {
